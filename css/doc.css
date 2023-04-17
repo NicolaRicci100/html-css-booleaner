@@ -10,3 +10,19 @@ figure {
     height: 170px;
     margin:0 auto;
 }
+
+
+tr,th,td {
+    text-align: left;
+}
+
+.top-left {
+    position: absolute;
+    color: white;
+    top: 8px;
+    left: 16px;
+  }
+  .container2 {
+    position: relative;
+    text-align: left;
+  }
