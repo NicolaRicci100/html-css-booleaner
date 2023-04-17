@@ -11,9 +11,15 @@ figure {
     margin:0 auto;
 }
 
-
-tr,th,td {
+table {
     text-align: left;
+}
+
+th {
+    color: white;
+    background-color: rgb(91, 123, 154);
+}
+tr:nth-child(even) {background-color: #9ecaee;
 }
 
 .top-left {
@@ -26,3 +32,16 @@ tr,th,td {
     position: relative;
     text-align: left;
   }
+  h4 {
+    color: gray;
+  }
+
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+  span {
+    background-color: yellow;
+  }
+  
