@@ -3,6 +3,7 @@
     margin: 0 auto
 }
 
+/* parte grafica header */
 figure {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 170, 255);
@@ -10,7 +11,15 @@ figure {
     height: 140px;
     margin:0 auto;
 }
+ #logo {
+    background-image: url(../img/logo.svg);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
 
+
+  /* parte grafica table */
 table {
     text-align: left;
 }
@@ -22,6 +31,17 @@ th {
 tr:nth-child(even) {background-color: #9ecaee;
 }
 
+
+  /* colori testo e evidenziatori */
+  .blue {
+    color: blue;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+
+  
+  /* elementi footer */
 .top-left {
     position: absolute;
     color: white;
@@ -36,13 +56,4 @@ tr:nth-child(even) {background-color: #9ecaee;
     color: gray;
   }
 
-  span {
-    background-color: yellow;
-  }
-
-  #logo {
-    background-image: url(../img/logo.svg);
-    height: 60px;
-    background-repeat: no-repeat;
-    background-position: center left;
-  }
+ 
