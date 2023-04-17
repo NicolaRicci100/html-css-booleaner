@@ -8,14 +8,14 @@ figure {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 170, 255);
     background-position: center;
-    height: 140px;
-    margin:0 auto;
+    height: 120px;
+    margin:0;
 }
  #logo {
     background-image: url(../img/logo.svg);
     height: 60px;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: center left;
   }
 
 
@@ -28,7 +28,8 @@ th {
     color: white;
     background-color: rgb(91, 123, 154);
 }
-tr:nth-child(even) {background-color: #9ecaee;
+tr:nth-child(even) {
+    background-color: #9ecaee;
 }
 
 
@@ -40,7 +41,7 @@ tr:nth-child(even) {background-color: #9ecaee;
     background-color: yellow;
   }
 
-  
+
   /* elementi footer */
 .top-left {
     position: absolute;
