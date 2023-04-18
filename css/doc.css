@@ -12,11 +12,11 @@ figure {
     margin:0;
 }
  #logo {
-    background-image: url(../img/logo.svg);
-    height: 60px;
-    background-repeat: no-repeat;
-    background-position: center left;
-  }
+  margin-top: 30px;
+  height: 60px;
+  width: auto;
+ }
+    
 
 
   /* parte grafica table */
