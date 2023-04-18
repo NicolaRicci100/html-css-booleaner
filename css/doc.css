@@ -22,11 +22,13 @@ figure {
   /* parte grafica table */
 table {
     text-align: left;
+    border-collapse: collapse;
 }
 
 th {
     color: white;
     background-color: rgb(91, 123, 154);
+    width: 30%;
 }
 tr:nth-child(even) {
     background-color: #9ecaee;
@@ -55,6 +57,11 @@ tr:nth-child(even) {
   }
   h4 {
     color: gray;
+  }
+
+  ul {
+    padding-inline-start: 0;
+    list-style-position: inside;
   }
 
  
